@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
         mBookInput = (EditText) findViewById(R.id.bookInput);
         mTitleText = (TextView) findViewById(R.id.titleText);
         mAuthorText = (TextView) findViewById(R.id.authorText);
-
+//
         if(getSupportLoaderManager().getLoader(0)!=null){
             getSupportLoaderManager().initLoader(0,null,this);
         }
